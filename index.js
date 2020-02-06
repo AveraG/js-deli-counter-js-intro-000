@@ -1,7 +1,7 @@
 function takeANumber(katzDeliLine, newPerson) {
   var place = katzDeliLine.length + 1;
   var greeting = 'Welcome, ' + newPerson + '. You are number ' + place + ' in line.';
-  current.push(newPerson);
+  katzDeliLine.push(newPerson);
   return greeting;
 };
 
