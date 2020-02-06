@@ -29,4 +29,5 @@ function currentLine(current) {
       }
     }
   }
+  return line;
 }
