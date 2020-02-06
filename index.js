@@ -25,7 +25,7 @@ function currentLine(current) {
       if(i === 0) {
         line = `The line is currently: ${i+1}. ${current[i]}`
       } else {
-        line = `The line is currently: ${i+1}. ${current[i]}, ${i+1}. ${current[i]} `
+        line = `The line is currently: ${i+1}. ${current[i]}, ${i+1}. ${current[i]}`
       }
     }
   }
