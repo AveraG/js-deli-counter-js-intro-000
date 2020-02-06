@@ -14,4 +14,19 @@ function nowServing(katzDeliLine) {
     katzDeliLine.shift();
   }
   return message;
+};
+
+function currentLine(current) {
+  var line 
+  if(current.length === 0) {
+    line = 'The line is currently empty';
+  } else {
+    for(let i = 0; i < current.length; i++) {
+      if(i === 0) {
+        line = `The line is currently: ${i+1}. ${current[i]}`
+      } else {
+        line = `The line is currently: ${i+1}. ${current[i]}, ${i+1}. ${current[i]} `
+      }
+    }
+  }
 }
